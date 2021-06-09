@@ -1,0 +1,150 @@
+h1 {
+	color: #F0C300;	
+	font-family: Pacifico;
+	text-align: center;
+	font-size: 40px;
+}
+
+h2 {
+	color: black;
+	font-family: Pacifico;
+	text-align: center;
+	font-size: 28px;
+}
+
+h3, h4, h5{
+	font-family: Pacifico;
+}
+
+h3{
+	font-size: 22px
+}
+
+h4{
+	font-size: 22px;
+	text-align: center;
+	font-family: Pacifico;
+}
+
+h5{
+	font-size:18px;
+}
+
+p, ul, ol{
+	font-size: 16px;
+}
+
+body {
+	background: white;
+	font-family: tahoma;
+}
+
+h3, h4, h5, p, ul, ol{
+	text-align: justify;
+}
+
+img{
+	width:800px;
+	height:500px;
+	object-fit: cover;
+	text-align: center;
+}
+
+h6{
+	font-size:32px;
+	text-align:center;
+	font-family: Pacifico;
+}
+
+div {
+ background: white;
+}
+
+a{
+	color: #F0C300;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.production {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.line-transparent {
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 50px;
+  width: 20%;
+  background: white;
+}
+
+.line-medium {
+  height: 50px;
+  width: 30%;
+  background: white;
+}
+
+.line-hard {
+  height: 50px;
+  width: 50%;
+  background: white;
+}
+
+.line-transparent {
+  background: white;
+  width: 100%;
+  display: flex;
+}
+
+.line-transparent {
+  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-transparent {
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: black;
+}
+
+.link:hover {
+  color: black;
+}
+
+.logo{width:300px;
+	height:20px;
+	}
+
