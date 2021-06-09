@@ -7,50 +7,78 @@ h1 {
 
 h2 {
 	color: black;
-	font-family: Pacifico;
+	font-family: Staatliches;
 	text-align: center;
 	font-size: 28px;
 }
 
-h3, h4, h5{
-	font-family: Pacifico;
-}
-
 h3{
-	font-size: 22px
+    font-family: Staatliches;
+  text-align : center;
+  font-size: 30px;
+  text-align: center;
 }
 
 h4{
-	font-size: 22px;
-	text-align: center;
-	font-family: Pacifico;
+    font-family: Stint Ultra Condensed;
+  text-align : center;
+  font-size: 40px;
+  width:1000px;
+ padding:10px;
+ margin:auto;
 }
 
 h5{
-	font-size:18px;
+  font-family: Staatliches;
 }
 
-p, ul, ol{
-	font-size: 16px;
+h6{
+    font-family: Staatliches;
+  text-align : center;
+  font-size: 40px;
+  width:1000px;
+ padding:10px;
+ margin:auto;
 }
+
+
+p{
+  font-size: 30px;
+  font-family: Stint Ultra Condensed;
+  text-align: center;
+  width:1000px;
+ padding:10px;
+ margin:auto;
+}
+
+ul{
+  font-size: 15px;
+  font-family: Staatliches;
+}
+
+ol{
+  font-size: 15px;
+  font-family: Stint Ultra Condensed;
+}
+
 
 body {
 	background: white;
-	font-family: tahoma;
+  font-family: Staatliches;
+  font-size:20px;
 }
 
-h3, h4, h5, p, ul, ol{
+h3, h4, p, ul, ol{
 	text-align: justify;
 }
 
 img{
-	width:800px;
-	height:500px;
-	object-fit: cover;
-	text-align: center;
+	width:1450px;
+	height:900px;
 }
 
-h6{
+
+h7{
 	font-size:32px;
 	text-align:center;
 	font-family: Pacifico;
@@ -71,7 +99,7 @@ a{
 }
 
 .production {
-  width: 300px;
+  width: 200px;
   height: 200px;
   object-fit: cover;
 }
@@ -145,6 +173,76 @@ a{
 }
 
 .logo{width:300px;
-	height:20px;
+	height:39px;
 	}
+
+.btn-pink {
+  display: inline-block;
+  color: white;
+  background: black;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: Staatliches;
+}
+
+.btn-pink:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+@import "compass/css3";
+
+/* Container used to centre on page */
+.pagewrapper {
+  width: 300px;
+  margin: 20px auto;
+}
+
+
+/* Default carousel styles */
+.carousel img {
+  /* hide all images except the first one */
+  display: none;
+  &:first-child { display: block; }
+}
+
+
+/* Additional styles when JS is available */
+.js .carousel {
+  position: relative;
+  
+  img {
+    display:none;
+    &.active { display: block; }
+  }
+}
+
+.js .nav-carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  li {
+    float: left;
+      
+    &:hover {
+      cursor: pointer;
+      border-bottom: 20px solid #666;
+    }
+  }
+}
+
+h7{
+  font-family: Stint Ultra Condensed;
+  font-size:50px;
+  color: black;
+}
+
+ 
+
+
+
+
 
