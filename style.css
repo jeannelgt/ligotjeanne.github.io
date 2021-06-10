@@ -17,6 +17,7 @@ h3{
   text-align : center;
   font-size: 30px;
   text-align: center;
+  color:black;
 }
 
 h4{
@@ -36,10 +37,13 @@ h5{
 h6{
     font-family: Staatliches;
   text-align : center;
+  border: 10px;
+  border-radius: 20px;
   font-size: 40px;
   width:1000px;
  padding:10px;
  margin:auto;
+ color : black;
 }
 
 
@@ -239,12 +243,16 @@ h7{
   font-family: Stint Ultra Condensed;
   font-size:50px;
   color: black;
+  border: 1px black solid;
+  border-radius : 5px;
+  box-shadow: 6px 6px 0px black;
 }
 
 div#bloc1 {
   float: left;
   background: white;
   text-align: center;
+  color : black;
  
 }
 
@@ -253,6 +261,7 @@ div#bloc2 {
   background: white;
   margin-left : 10px;
   text-align: center;
+  color : black;
 }
 
 div#bloc3 {
@@ -260,6 +269,7 @@ div#bloc3 {
   background: white;
     margin-left : 10px;
   text-align: center;
+  color : black;
 }
 
 div#bloc4{
@@ -267,6 +277,7 @@ div#bloc4{
   background: white;
     margin-left : 10px;
   text-align: center;
+  color : black;
 }
 
 div#bloc5{
@@ -274,11 +285,13 @@ div#bloc5{
   background: white;
     margin-left : 10px;
   text-align: center;
+  color : black;
 }
 
 ul{
   font-size : 25px;
 }
+
 
  
 
