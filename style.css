@@ -157,7 +157,7 @@ a{
   align-items: center;
 }
 
-.navbar {
+.my-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
